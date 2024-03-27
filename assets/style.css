@@ -1,0 +1,259 @@
+:root {
+--dark: #353332;
+--dark2: #4a4847;
+--lgold: #e4b51a;
+--dgold: #8E793E;
+--white: #EAEAEA;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica-bold';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: var(--dark);
+    font-family: 'Helvetica-bold'; 
+}
+
+header h1 {
+    font-size: 300%;
+    border: 2px solid var(--white);
+    background-color: var(--dark2);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h1 a {
+    color: var(--lgold);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark);
+    font-family: 'Helvetica-bold';
+}
+
+.nav {
+    display: flex;
+    
+}
+
+.nav li {
+    padding: 10px;
+    list-style-type: none;
+    font-size: 135%;
+    border: 2px solid var(--dgold);
+    border-radius: 20px;
+    margin: 10px;
+    background-color: var(--lgold);
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.title {
+    color: var(--lgold);
+    display: flex;
+    justify-content: center;
+    font-size: 400%;
+    padding: 20px;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+    background-color: var(--dark2);
+    text-shadow: 1px 1px var(--dgold);
+}
+
+.profile-img {
+  width:95px;
+  border-radius: 50%;
+  border: 2px solid var(--lgold);
+  position: relative;
+  bottom: 10px;
+  margin: 5px 10px -15px 5px;
+}
+
+.about-section {
+    background-color: var(--dark);
+    border-bottom: 2px solid var(--white);
+}
+.about-section p {
+    font-family: Georgia;
+    color: var(--white);
+    padding: 0px 50px 20px 50px;
+    line-height: 25px;
+    text-indent: 50px;
+}
+
+.about-section img {
+    float: left;
+    max-width: 400px;
+    padding: 0px 25px 10px 50px;
+}
+
+h2 {
+    font-size: 300%;
+    justify-content: center;
+    color: var(--lgold);
+    padding: 20px;
+    margin-left: 30px;
+    text-shadow: 1px 1px var(--dgold);
+}
+
+.portfolio-section  {
+    background-color: var(--dark2);
+    padding-bottom: 20px;
+}
+
+.portfolio-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+
+.portfolio-cards {
+    border: 5px solid var(--white);
+    background-color: var(--dark);
+    border-radius: 10%;
+    margin-bottom: 20px;
+    color: var(--white);
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 10px 10px 3px #9c9c9c;
+}
+
+.portfolio-cards p {
+    padding: 10px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.icon {
+    width: 300px;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+h3 {
+    font-size: 150%;
+    padding: 10px;
+    text-shadow: 1.5px 1px var(--dgold)
+}
+
+.contact-section {
+    border-top: 2px solid var(--white);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.contact-section h3 {
+    color: var(--lgold);
+    font-size: 200%;
+    text-align: center;
+}
+
+.contact-section p {
+    color: var(--white);
+    text-align: center;
+}
+
+.contact-section a {
+    color: var(--white);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--dark2);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+}
+
+h4 {
+    color: var(--white);
+    padding: 5px 0px 10px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.button-block {
+    text-align: center;
+  }
+  
+.button {
+    display: inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    color: var(--white);
+    font-size: 230%;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+  
+.fa-facebook-f, .fa-linkedin, .fa-tiktok, .fa-instagram {
+    font-size: 25px;
+  }
+  
+.button.facebook {
+    background: #3b5998;
+  }
+  
+.button.facebook:hover, button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+  
+.button.linkedin {
+    background: #007bb5;
+  }
+  
+.button.linkedin:hover, button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+  
+.button.tiktok {
+    background: #000000;
+  }
+  
+.button.tiktok:hover, .button.tiktok:focus {
+    color: #000000;
+    background: #fefefe;
+    border-color: #000000;
+  }
+  
+.button.instagram {
+    background: #d62976;
+  }
+  
+.button.instagram:hover, .button.instagram:focus {
+    color: #d62976;
+    background: #fefefe;
+    border-color: #d62976;
+  }

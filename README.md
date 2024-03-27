@@ -6,7 +6,7 @@ This is a working-in-progress website that displays all of Chase Friedmans launc
 
 ## Usage
 
-Website can be reached at https://cfriedman2156.github.io/personal-portfolio/.
+Website can be reached at https://cfriedman2156.github.io/Personal-Portfolio/.
 
 Use the navigation bar in the header to quickly access different sections, and click the gifs to be redirected to the deployed projects.
 
